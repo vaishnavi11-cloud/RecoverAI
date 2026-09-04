@@ -1,0 +1,122 @@
+[
+    {
+        "payment_id": "PAY001",
+        "amount": 8054,
+        "failure_reason": "network_error",
+        "retry_count": 2,
+        "customer_history": "average",
+        "previous_successful_payments": 3,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    },
+    {
+        "payment_id": "PAY002",
+        "amount": 1664,
+        "failure_reason": "card_declined",
+        "retry_count": 1,
+        "customer_history": "poor",
+        "previous_successful_payments": 1,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    },
+    {
+        "payment_id": "PAY003",
+        "amount": 3295,
+        "failure_reason": "card_declined",
+        "retry_count": 1,
+        "customer_history": "average",
+        "previous_successful_payments": 2,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    },
+    {
+        "payment_id": "PAY004",
+        "amount": 7710,
+        "failure_reason": "bank_error",
+        "retry_count": 0,
+        "customer_history": "average",
+        "previous_successful_payments": 3,
+        "action": "RETRY_PAYMENT",
+        "result": "SUCCESS",
+        "recovered_amount": 7710,
+        "success_probability": 0.7500000000000001
+    },
+    {
+        "payment_id": "PAY005",
+        "amount": 6338,
+        "failure_reason": "insufficient_funds",
+        "retry_count": 1,
+        "customer_history": "average",
+        "previous_successful_payments": 4,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    },
+    {
+        "payment_id": "PAY006",
+        "amount": 8332,
+        "failure_reason": "card_declined",
+        "retry_count": 0,
+        "customer_history": "good",
+        "previous_successful_payments": 7,
+        "action": "OFFER_ALTERNATIVE_METHOD",
+        "result": "SUCCESS",
+        "recovered_amount": 8332,
+        "success_probability": 0.7500000000000001
+    },
+    {
+        "payment_id": "PAY007",
+        "amount": 1910,
+        "failure_reason": "bank_error",
+        "retry_count": 2,
+        "customer_history": "good",
+        "previous_successful_payments": 17,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    },
+    {
+        "payment_id": "PAY008",
+        "amount": 1945,
+        "failure_reason": "bank_error",
+        "retry_count": 1,
+        "customer_history": "good",
+        "previous_successful_payments": 12,
+        "action": "RETRY_PAYMENT",
+        "result": "SUCCESS",
+        "recovered_amount": 1945,
+        "success_probability": 0.9
+    },
+    {
+        "payment_id": "PAY009",
+        "amount": 8179,
+        "failure_reason": "network_error",
+        "retry_count": 0,
+        "customer_history": "average",
+        "previous_successful_payments": 3,
+        "action": "RETRY_PAYMENT",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.8
+    },
+    {
+        "payment_id": "PAY010",
+        "amount": 7039,
+        "failure_reason": "bank_error",
+        "retry_count": 2,
+        "customer_history": "poor",
+        "previous_successful_payments": 1,
+        "action": "STOP",
+        "result": "FAILED",
+        "recovered_amount": 0,
+        "success_probability": 0.0
+    }
+]
